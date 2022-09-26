@@ -14,7 +14,7 @@ rl.on('line', (line) => {
   process.exit();
 });
 
-function getCycleLength(n: number) {
+export function getCycleLength(n: number) {
   let result = 1;
   let newNumber = calculateN(n);
 
