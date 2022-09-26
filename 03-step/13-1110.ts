@@ -15,13 +15,13 @@ rl.on('line', (line) => {
 });
 
 export function getCycleLength(n: number) {
+  let newN = calculateN(n);
   let result = 1;
-  let newNumber = calculateN(n);
 
   while (true) {
-    if (newNumber === n) break;
+    if (newN === n) break;
 
-    newNumber = calculateN(newNumber);
+    newN = calculateN(newN);
 
     result += 1;
   }
