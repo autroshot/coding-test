@@ -1,3 +1,9 @@
+실행 명령어는 다음과 같다.
+
+```bash
+npx ts-node .\07-step\3-1193.ts
+```
+
 백준에서는 `require`를 사용하는 CommonJS만 지원한다.
 
 ```ts
