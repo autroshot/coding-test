@@ -1,4 +1,3 @@
-import { expect, test } from '@jest/globals';
 import { calculateRoomNo } from './5-10250';
 
 test('calculateRoomNo', () => {

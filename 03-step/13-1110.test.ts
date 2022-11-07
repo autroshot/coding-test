@@ -1,4 +1,3 @@
-import { expect, test } from '@jest/globals';
 import { getCycleLength } from './13-1110';
 
 test('getCycleLength', () => {
